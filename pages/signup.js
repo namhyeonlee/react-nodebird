@@ -1,7 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { Form, Input, Checkbox, Button } from 'antd';
 import PropTypes from 'prop-types';
-
 import AppLayout from '../components/AppLayout';
 import useInput from '../hooks/useInput';
 
@@ -47,7 +46,7 @@ const Signup = () => {
   return (
     <AppLayout>
       <Form onFinish={onSubmit} style={{ padding: 10 }}>
-        <TextInput value="135135" />
+        {/* <TextInput value="135135" /> */}
         <div>
           <label htmlFor="user-id">아이디</label>
           <br />
